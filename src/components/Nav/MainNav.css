@@ -1,0 +1,19 @@
+.navbar {
+  background-color: lightblue;
+  height: auto;
+  padding: 0 5rem;
+}
+
+.navbar .logo {
+  margin-top: 0.5rem;
+}
+.navbar .nav-link:hover {
+  opacity: 0.5 !important;
+}
+
+.navbar .btn {
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem !important;
+  border-radius: 8px !important;
+}

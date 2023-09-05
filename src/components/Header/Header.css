@@ -1,0 +1,23 @@
+#header.container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#header.container .header-title {
+  text-align: left;
+  padding-top: 50px;
+}
+
+#header.container .header-img {
+  padding-top: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  #header.container h1 {
+    font-size: 4rem;
+  }
+
+  #header.container .header-title {
+    padding-top: 150px;
+  }
+}

@@ -1,0 +1,31 @@
+#contact {
+  padding: 50px 0;
+  background-color: #00a09d;
+  color: #ffffff;
+}
+
+#contact .form-control {
+  padding: 16px;
+  border-radius: 14px 0 0 14px !important;
+}
+
+#contact .btn {
+  height: fit-content;
+  margin-top: 32px;
+  border-radius: 0 14px 14px 0 !important;
+}
+
+#contact a {
+  color: #fff;
+}
+
+#contact a:hover {
+  opacity: 0.7;
+}
+
+#contact .btn:hover {
+  height: fit-content;
+  margin-top: 32px;
+  border-radius: 0 14px 14px 0 !important;
+  color: #00a09d !important;
+}

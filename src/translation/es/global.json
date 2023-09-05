@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "about-us": "Nosotros",
+    "experience": "Biopharmaceutical",
+    "location": "Locación",
+    "solutions": "Soluciones",
+    "contact": "Contacto"
+  },
+
+  "header": {
+    "h1": "Unlocking Nature’s Healing Potencial",
+    "body": "We are Awakening ancestral medicine by developing medical and biopharmaceutical solutions for different pathologies and general wellness.",
+    "btn1": "Contáctanos",
+    "btn2": "Watch Now"
+  },
+
+  "about-us": {
+    "h5": "About Us",
+    "h1": "Bloem Life Enterprise Inc.",
+    "body": {
+      "p1": "Bloem Life is a holding company focused on the development of biopharmaceutical formulations for different pathologies and general wellness.",
+      "p2": "As a holding company, we are focused on the acquisition of Companies, Intellectual Property, Trade Secrets, unique processes and pharmaceutical development of treatments for diseases such as chronic pain, Autism, depression, Alzheimer’s, arthritis, migraines, MS, and many others."
+    },
+    "btn": "Learn More"
+  },
+
+  "experience": {
+    "h5": "Biopharmaceutical",
+    "h1": "What do we do?",
+    "body": "Our Formulations , Research & Development, Social Responsibility, Our Partners, Our Health & Wellness Club.",
+    "item-1": {
+      "title": "Production Formulation",
+      "body": "Innovative formulations production leveraging cannabinoids and natural compounds."
+    },
+    "item-2": {
+      "title": "Research and Development",
+      "body": "Advancing healthcare through cannabinoid and natural compound research and development."
+    },
+    "item-3": {
+      "title": "Education & Humanitarian",
+      "body": "Empowering through educations & humanitarian aid initiatives."
+    },
+    "item-4": {
+      "title": "Treatment",
+      "body": "Comprehensive treatment solutions: 17 medical formulations and over 50 OTC options."
+    },
+    "item-5": {
+      "title": "Major Retailers",
+      "body": "Partnering with mayor retailers: Expanding access to innovative products."
+    },
+    "item-6": {
+      "title": "Health Wellness Club",
+      "body": "Join the health wellness club: Elevating your well-being journey."
+    }
+  },
+
+  "solutions": {
+    "h5": "Solutions",
+    "h1": "Bloem Solutions",
+    "brand-1": {
+      "body": "At Pure Syncore, our vision is to create a seamless fusion of ancient wisdom and modern living, enriching your well-being with the goodness of nature and cutting-edge technologies."
+    },
+    "brand-2": {
+      "body": "Is a privately held company that manufactures exceptional quality humate based products which provide green sustainable solutions for today’s agricultural and remediation industries."
+    }
+  },
+
+  "location": {
+    "h5": "Location",
+    "h1": "Bloem around the globe",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "item-1": {
+      "title": "Pure Syncore-Rx",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "item-2": {
+      "title": "ICAN Connect to Cannabis",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "item-3": {
+      "title": "GrowMate Iternational LLC",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  },
+
+  "contact": {
+    "h6": "Follow Us",
+    "body": "Don’t miss the latest offers from.",
+    "label": "Email",
+    "btn": "Sign Up",
+    "sub-form": "By clicking “Sign Up” you agree to the ",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "&": "&"
+  },
+
+  "work": {
+    "title": "About Us",
+    "body": "As a holding company, we are focused on the acquisition of Companies, Intellectual Property, Trade Secrets, unique processes and pharmaceutical development of treatments.",
+    "claim": "'Elevate Your Wellness Journey with Puresyncore's Premium Offerings'",
+    "subtitle-1": "Our Work",
+    "step-1": "1. Research and acquisition of intellectual property, trade secrets and unique processes.",
+    "step-2": "2. Developing Biopharmaceutical Formulations based on cannabinoids and other natural compounds.",
+    "step-3": "3. Natural treatments of chronic pain, migraines, stress depression, autism, epilepsy, MS and many others.",
+    "subtitle-2": "Why Bloem Life?",
+    "col-1": "Pharmacochemical medicine can cause unwanted and harmful side effects.",
+    "col-2": "The drug market periodically experiences “shortages” and massive price spikes.",
+    "col-3": "Abuse of the patent system by creating patents on generic versions of necessary drugs.",
+    "subtitle-3": "Management Team",
+    "team": {
+      "team-1": "",
+      "position-1": "",
+      "team-2": "",
+      "position-2": "",
+      "team-3": "",
+      "position-3": "",
+      "team-4": "",
+      "position-4": "",
+      "team-5": "",
+      "position-5": "",
+      "team-6": "",
+      "position-6": ""
+    }
+  }
+}

@@ -1,0 +1,24 @@
+#experts {
+  padding: 50px 0;
+  background-color: #f8f9fb;
+}
+
+#experts .experts-text {
+  text-align: center;
+}
+
+#experts .experts-item {
+  text-align: left;
+  padding: 16px;
+}
+
+@media screen and (min-width: 992px) {
+  #experts {
+    padding: 120px 0;
+  }
+
+  #experts .experts-item {
+    text-align: left;
+    padding: 40px;
+  }
+}

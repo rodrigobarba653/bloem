@@ -1,0 +1,23 @@
+#work-header {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#work-body {
+  padding: 50px 0;
+}
+
+#work-card {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#work-card .card {
+  padding: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  #work-header {
+    padding: 80px 0;
+  }
+}

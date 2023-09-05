@@ -1,0 +1,13 @@
+#solutions {
+  padding: 50px 0;
+}
+
+#solutions .solutions-text {
+  text-align: left;
+}
+
+@media screen and (min-width: 992px) {
+  #solutions {
+    padding: 100px 0;
+  }
+}

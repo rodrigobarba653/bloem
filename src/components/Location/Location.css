@@ -1,0 +1,60 @@
+#location {
+  padding: 50px 0;
+}
+
+#location.container .location-text {
+  text-align: left;
+}
+
+#location.container .location-text .item {
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+#location.container .location-text .item:hover {
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  background-color: #f1f1f1;
+  border-radius: 16px;
+}
+
+#location.container .location-text .item.active {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+#location.container .location-text .item.active:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.location-pin {
+  position: absolute;
+}
+
+.ican-1 {
+  margin-top: 260px;
+  margin-left: 170px;
+}
+
+.grow-1 {
+  margin-top: 140px;
+  margin-left: 190px;
+}
+
+.life-1 {
+  margin-top: 320px;
+  margin-left: 270px;
+}
+
+.sosteli-1 {
+  margin-top: 450px;
+  margin-left: 430px;
+}
+
+@media screen and (min-width: 992px) {
+  #location {
+    padding: 80px 0;
+  }
+}
