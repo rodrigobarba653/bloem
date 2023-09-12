@@ -1,10 +1,7 @@
 import "./Header.css";
 import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import HeaderImg from "../../img/header-img.png";
 
 function Header() {
@@ -17,7 +14,7 @@ function Header() {
           <h1>{t("header.h1")}</h1>
           <p>{t("header.body")}</p>
           <Col className="inline-flex">
-            <Button className="mr-4 shadow">{t("header.btn1")}</Button>
+            <Button className="mr-md-4 mr-3 shadow">{t("header.btn1")}</Button>
             <Button variant="outline-primary">{t("header.btn2")}</Button>
           </Col>
         </Col>

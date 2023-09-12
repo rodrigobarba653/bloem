@@ -1,11 +1,8 @@
 import "./Contact.css";
 import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Form from "react-bootstrap/Form";
-import { Button } from "react-bootstrap";
+import { Container, Row, Col, Button, Form } from "react-bootstrap";
+import { Facebook, Instagram, Twitter, Youtube } from "react-bootstrap-icons";
 
 function Contact() {
   const [t, i18n] = useTranslation("global");
@@ -17,6 +14,12 @@ function Contact() {
           <Col lg="6">
             <h6>{t("contact.h6")}</h6>
             <p>{t("contact.body")}</p>
+            <Col className="inline-flex social-wrapper">
+              <Facebook className="mr-4" />
+              <Instagram className="mr-4" />
+              <Twitter className="mr-4" />
+              <Youtube className="mr-4" />
+            </Col>
           </Col>
           <Col lg="6">
             <Form className="flex">

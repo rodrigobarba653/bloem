@@ -1,9 +1,33 @@
 .pure-1 {
-  margin-top: 140px;
-  margin-left: 200px;
+  margin-top: 80px;
+  margin-left: 130px;
 }
 
 .pure-2 {
-  margin-top: 260px;
-  margin-left: 180px;
+  margin-top: 160px;
+  margin-left: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .pure-1 {
+    margin-top: 130px;
+    margin-left: 170px;
+  }
+
+  .pure-2 {
+    margin-top: 230px;
+    margin-left: 150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pure-1 {
+    margin-top: 140px;
+    margin-left: 200px;
+  }
+
+  .pure-2 {
+    margin-top: 260px;
+    margin-left: 180px;
+  }
 }

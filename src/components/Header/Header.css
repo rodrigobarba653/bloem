@@ -1,3 +1,7 @@
+#header.container {
+  margin-top: 20px;
+}
+
 #header.container h1 {
   font-size: 2rem;
   font-weight: bold;
@@ -9,15 +13,29 @@
 }
 
 #header.container .header-img {
-  padding-top: 100px;
+  padding-top: 50px;
+  margin-left: -5px;
+}
+
+#header.container .btn {
+  padding: 1rem 2rem !important;
 }
 
 @media screen and (min-width: 992px) {
+  #header.container {
+    margin-top: 50px;
+  }
+
   #header.container h1 {
     font-size: 4rem;
   }
 
   #header.container .header-title {
     padding-top: 150px;
+    margin-left: 0;
+  }
+
+  #header.container .header-img {
+    padding-top: 100px;
   }
 }

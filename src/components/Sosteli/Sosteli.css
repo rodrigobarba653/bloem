@@ -1,4 +1,18 @@
 .sosteli-1 {
-  margin-top: 140px;
-  margin-left: 200px;
+  margin-top: 275px;
+  margin-left: 250px;
+}
+
+@media screen and (min-width: 992px) {
+  .sosteli-1 {
+    margin-top: 395px;
+    margin-left: 350px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sosteli-1 {
+    margin-top: 460px;
+    margin-left: 420px;
+  }
 }

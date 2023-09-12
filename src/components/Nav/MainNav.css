@@ -1,12 +1,10 @@
 .navbar {
-  background-color: lightblue;
+  background-color: #ffffff;
   height: auto;
-  padding: 0 5rem;
+  padding: 0.5rem 0;
+  box-shadow: 0 10px 30px rgb(0, 0, 0, 0.05);
 }
 
-.navbar .logo {
-  margin-top: 0.5rem;
-}
 .navbar .nav-link:hover {
   opacity: 0.5 !important;
 }
@@ -16,4 +14,18 @@
   width: 40px;
   padding: 0.5rem !important;
   border-radius: 8px !important;
+}
+
+.navbar .navar-brand {
+  width: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 0.5rem 5rem;
+  }
+
+  .navbar .navar-brand {
+    width: 200px;
+  }
 }

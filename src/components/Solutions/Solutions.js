@@ -1,28 +1,42 @@
+import { BrowserRouter as Router, Link } from "react-router-dom";
+
 import "./Solutions.css";
 import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import PureLogo from "../../img/pure-logo.png";
+import GrowLogo from "../../img/grow-logo.png";
+import Leaf from "../../img/leaf2.png";
 
 function Solutions() {
   const [t, i18n] = useTranslation("global");
 
   return (
     <Container id="solutions">
+      <div fluid id="solutions-bg"></div>
+      <div className="leaf-2">
+        <img className="img-fluid" src={Leaf}></img>
+      </div>
       <Row>
         <Col className="solutions-text" lg="6">
           <h5>{t("solutions.h5")}</h5>
           <h1>{t("solutions.h1")}</h1>
-          <p>{t("solutions.body")}</p>
         </Col>
       </Row>
-      <Row className="mt-5">
+      <Row className="mt-md-5">
         <Col className="solutions-brand" lg="6">
+          <img className="img-fluid mb-3 mt-5" src={PureLogo}></img>
           <p>{t("solutions.brand-1.body")}</p>
+          <Link className="nav-link" to="/pure-syncore">
+            <Button>{t("solutions.btn")}</Button>
+          </Link>
         </Col>
         <Col className="solutions-brand" lg="6">
+          <img className="img-fluid mb-3 mt-5" src={GrowLogo}></img>
           <p>{t("solutions.brand-2.body")}</p>
+          <Link className="nav-link" to="/growmate">
+            <Button>{t("solutions.btn")}</Button>
+          </Link>
         </Col>
       </Row>
     </Container>

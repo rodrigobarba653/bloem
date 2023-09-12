@@ -13,6 +13,7 @@
   height: fit-content;
   margin-top: 32px;
   border-radius: 0 14px 14px 0 !important;
+  padding: 1rem 1rem !important;
 }
 
 #contact a {
@@ -28,4 +29,11 @@
   margin-top: 32px;
   border-radius: 0 14px 14px 0 !important;
   color: #00a09d !important;
+}
+
+.social-wrapper {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 992px) {
 }

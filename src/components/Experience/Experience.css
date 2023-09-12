@@ -1,5 +1,5 @@
 #experience {
-  padding: 50px 0;
+  padding: 50px 20px;
   background-color: #f8f9fb;
 }
 
@@ -8,8 +8,14 @@
 }
 
 #experience .experience-item {
-  text-align: left;
+  text-align: center;
   padding: 16px;
+  justify-content: center;
+}
+
+#experience .experience-item img {
+  margin: 0 auto;
+  padding-bottom: 24px;
 }
 
 @media screen and (min-width: 992px) {
@@ -20,5 +26,9 @@
   #experience .experience-item {
     text-align: left;
     padding: 40px;
+  }
+
+  #experience .experience-item img {
+    margin: 0 0;
   }
 }

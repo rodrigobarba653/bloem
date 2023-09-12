@@ -8,17 +8,27 @@
 }
 
 #experts .experts-item {
-  text-align: left;
+  text-align: center;
   padding: 16px;
+}
+
+#experts .experts-item img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 992px) {
   #experts {
-    padding: 120px 0;
+    padding: 90px 0 80px;
   }
 
   #experts .experts-item {
     text-align: left;
     padding: 40px;
+  }
+
+  #experts .experts-item img {
+    margin-left: 0;
+    margin-right: 0;
   }
 }

@@ -1,3 +1,9 @@
 .btn {
   padding: 1rem 3rem;
 }
+
+#app {
+  background-image: url("/src/img/bg1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
