@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import { Facebook, Instagram, Twitter, Youtube } from "react-bootstrap-icons";
 
-function Contact() {
+function Contact({ contactRef }) {
   const [t, i18n] = useTranslation("global");
 
   return (

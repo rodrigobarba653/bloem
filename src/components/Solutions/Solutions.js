@@ -8,7 +8,7 @@ import PureLogo from "../../img/pure-logo.png";
 import GrowLogo from "../../img/grow-logo.png";
 import Leaf from "../../img/leaf2.png";
 
-function Solutions() {
+function Solutions({ solutionsRef }) {
   const [t, i18n] = useTranslation("global");
 
   return (

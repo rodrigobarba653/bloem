@@ -17,13 +17,13 @@ import Icon3 from "../../img/item-icon-3.png";
 import Icon4 from "../../img/item-icon-4.png";
 import Icon5 from "../../img/item-icon-5.png";
 
-function Location({ locationRef }) {
+function Location() {
   const [zoneActive, setZoneActive] = useState(1);
   const active = "item active d-flex";
   const [t, i18n] = useTranslation("global");
 
   return (
-    <Container ref={locationRef} id="location">
+    <Container id="location">
       <div className="leaf-3">
         <img className="img-fluid" src={Leaf}></img>
       </div>

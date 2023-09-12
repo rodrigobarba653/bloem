@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import MainNav from "./components/Nav/MainNav";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import BioPha from "./pages/BioPha";
@@ -12,6 +13,7 @@ function App() {
   return (
     <div id="app">
       <Router>
+        <MainNav />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>

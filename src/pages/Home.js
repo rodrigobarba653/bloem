@@ -16,7 +16,6 @@ function Home() {
 
   return (
     <div id="home">
-      <MainNav />
       <Header />
       <AboutUs />
       <Experience />
