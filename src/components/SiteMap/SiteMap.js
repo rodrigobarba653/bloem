@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 import "./SiteMap.css";
 import { useTranslation } from "react-i18next";
@@ -14,40 +15,42 @@ function SiteMap() {
         <Row>
           <Col lg="3">
             <h4>{t("sitemap.subtitle-1")}</h4>
-            <Link className="nav-link" to="/about">
+            <HashLink className="nav-link" to="/#about">
               {t("nav.about-us")}
-            </Link>
-            <Link className="nav-link" to="/biopharmaceutical">
+            </HashLink>
+            <HashLink className="nav-link" to="/#biopharmaceutical">
               {t("nav.experience")}
-            </Link>
-            <Link className="nav-link" to="/about">
+            </HashLink>
+            <HashLink className="nav-link" to="/#location">
               {t("nav.location")}
-            </Link>
+            </HashLink>
           </Col>
           <Col className="pt-4" lg="3">
-            <Link className="nav-link" to="/about">
+            <HashLink className="nav-link" to="/#solutionst">
               {t("nav.solutions")}
-            </Link>
-            <Link className="nav-link" to="/about">
+            </HashLink>
+            <HashLink className="nav-link" to="/#contact">
               {t("nav.contact")}
-            </Link>
+            </HashLink>
           </Col>
           <Col lg="3">
             <h4>{t("sitemap.subtitle-2")}</h4>
-            <Link className="nav-link" to="/about">
+            <HashLink className="nav-link" to="/about#work-header">
               {t("sitemap.pages.page-1")}
-            </Link>
-            <Link className="nav-link" to="/biopharmaceutical">
+            </HashLink>
+            <HashLink
+              className="nav-link"
+              to="/biopharmaceutical#biopha-header">
               {t("sitemap.pages.page-2")}
-            </Link>
+            </HashLink>
           </Col>
           <Col className="pt-4" lg="3">
-            <Link className="nav-link" to="/about">
+            <HashLink className="nav-link" to="/pure-syncore#puresyn-header">
               {t("sitemap.pages.page-3")}
-            </Link>
-            <Link className="nav-link" to="/about">
+            </HashLink>
+            <HashLink className="nav-link" to="/growmate#puresyn-header">
               {t("sitemap.pages.page-4")}
-            </Link>
+            </HashLink>
           </Col>
         </Row>
       </Container>

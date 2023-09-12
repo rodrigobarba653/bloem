@@ -2,7 +2,7 @@ import PureSynCo from "../components/PureSyn/PureSyn";
 import Contact from "../components/Contact/Contact";
 import SiteMap from "../components/SiteMap/SiteMap";
 
-function PureSynCo() {
+function PureSyn() {
   return (
     <div id="PureSynCo">
       <PureSynCo />
@@ -12,4 +12,4 @@ function PureSynCo() {
   );
 }
 
-export default PureSynCo;
+export default PureSyn;

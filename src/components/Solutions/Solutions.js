@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 import "./Solutions.css";
 import { useTranslation } from "react-i18next";
@@ -27,16 +28,19 @@ function Solutions({ solutionsRef }) {
         <Col className="solutions-brand" lg="6">
           <img className="img-fluid mb-3 mt-5" src={PureLogo}></img>
           <p>{t("solutions.brand-1.body")}</p>
-          <Link className="nav-link" to="/pure-syncore">
+          <HashLink
+            className="nav-link"
+            smooth
+            to="/pure-syncore#puresyn-header">
             <Button>{t("solutions.btn")}</Button>
-          </Link>
+          </HashLink>
         </Col>
         <Col className="solutions-brand" lg="6">
           <img className="img-fluid mb-3 mt-5" src={GrowLogo}></img>
           <p>{t("solutions.brand-2.body")}</p>
-          <Link className="nav-link" to="/growmate">
+          <HashLink className="nav-link" smooth to="/growmate#puresyn-header">
             <Button>{t("solutions.btn")}</Button>
-          </Link>
+          </HashLink>
         </Col>
       </Row>
     </Container>

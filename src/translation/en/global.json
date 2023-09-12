@@ -1,10 +1,238 @@
 {
-    "nav": {
-        "about-us": "About us",
-        "experience": "Our Experience",
-        "location": "Location",
-        "solutions": "Solutions",
-        "experts": "Experts",
-        "contact": "Contact"
+  "nav": {
+    "about-us": "About Us",
+    "experience": "Biopharmaceutical",
+    "location": "Location",
+    "solutions": "Solutions",
+    "contact": "Contact"
+  },
+
+  "header": {
+    "h1": "Unlocking Nature’s Healing Potencial",
+    "body": "We are Awakening ancestral medicine by developing medical and biopharmaceutical solutions for different pathologies and general wellness.",
+    "btn1": "Contáctanos",
+    "btn2": "Watch Now"
+  },
+
+  "about-us": {
+    "h5": "About Us",
+    "h1": "Bloem Life Enterprise Inc.",
+    "body": {
+      "p1": "Bloem Life is a holding company focused on the development of biopharmaceutical formulations for different pathologies and general wellness.",
+      "p2": "As a holding company, we are focused on the acquisition of Companies, Intellectual Property, Trade Secrets, unique processes and pharmaceutical development of treatments for diseases such as chronic pain, Autism, depression, Alzheimer’s, arthritis, migraines, MS, and many others."
+    },
+    "btn": "Learn More"
+  },
+
+  "experience": {
+    "h5": "Biopharmaceutical",
+    "h1": "What do we do?",
+    "body": "Our Formulations , Research & Development, Social Responsibility, Our Partners, Our Health & Wellness Club.",
+    "item-1": {
+      "title": "Production Formulation",
+      "body": "Innovative formulations production leveraging cannabinoids and natural compounds."
+    },
+    "item-2": {
+      "title": "Research and Development",
+      "body": "Advancing healthcare through cannabinoid and natural compound research and development."
+    },
+    "item-3": {
+      "title": "Education & Humanitarian",
+      "body": "Empowering through educations & humanitarian aid initiatives."
+    },
+    "item-4": {
+      "title": "Treatment",
+      "body": "Comprehensive treatment solutions: 17 medical formulations and over 50 OTC options."
+    },
+    "item-5": {
+      "title": "Major Retailers",
+      "body": "Partnering with mayor retailers: Expanding access to innovative products."
+    },
+    "item-6": {
+      "title": "Health Wellness Club",
+      "body": "Join the health wellness club: Elevating your well-being journey."
+    },
+    "btn": "Learn More"
+  },
+
+  "solutions": {
+    "h5": "Solutions",
+    "h1": "Bloem Solutions",
+    "brand-1": {
+      "body": "At Pure Syncore, our vision is to create a seamless fusion of ancient wisdom and modern living, enriching your well-being with the goodness of nature and cutting-edge technologies."
+    },
+    "brand-2": {
+      "body": "Is a privately held company that manufactures exceptional quality humate based products which provide green sustainable solutions for today’s agricultural and remediation industries."
+    },
+    "btn": "Learn More"
+  },
+
+  "location": {
+    "h5": "Location",
+    "h1": "Bloem around the globe",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "item-1": {
+      "title": "Pure Syncore-Rx",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "item-2": {
+      "title": "ICAN Connect to Cannabis",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "item-3": {
+      "title": "GrowMate Iternational LLC",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "item-4": {
+      "title": "Bloem Life",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "item-5": {
+      "title": "Sosteli",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
+  },
+
+  "experts": {
+    "h5": "Experts",
+    "h1": "Our Team",
+    "team-1": "Dr. Cuauhtémoc Gil Ortiz",
+    "position-1": "Doctor",
+    "team-2": "Dr. Gerardo Sánchez Mejorada ",
+    "position-2": "Doctor",
+    "team-3": "Dr. Francisco Kuri Breña",
+    "position-3": "Doctor",
+    "team-4": "Bio. Miguel Ángel Gutiérrez",
+    "position-4": "Biologist",
+    "team-5": "Dr. Francisco Contreras",
+    "position-5": "Doctor",
+    "team-6": "Lorem ipsum dolor sit amet,",
+    "position-6": "Lorem ipsum dolor sit amet,"
+  },
+
+  "contact": {
+    "h6": "Follow Us",
+    "body": "Don’t miss the latest offers from.",
+    "label": "Email",
+    "btn": "Sign Up",
+    "sub-form": "By clicking “Sign Up” you agree to the ",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "&": "&"
+  },
+
+  "work": {
+    "title": "About Us",
+    "body": "As a holding company, we are focused on the acquisition of Companies, Intellectual Property, Trade Secrets, unique processes and pharmaceutical development of treatments.",
+    "claim": "'Elevate Your Wellness Journey with Puresyncore's Premium Offerings'",
+    "subtitle-1": "Our Work",
+    "step-1": "Research and acquisition of intellectual property, trade secrets and unique processes.",
+    "step-2": "Developing Biopharmaceutical Formulations based on cannabinoids and other natural compounds.",
+    "step-3": "Natural treatments of chronic pain, migraines, stress depression, autism, epilepsy, MS and many others.",
+    "subtitle-2": "Why Bloem Life?",
+    "col-1": "Pharmacochemical medicine can cause unwanted and harmful side effects.",
+    "col-2": "The drug market periodically experiences “shortages” and massive price spikes.",
+    "col-3": "Abuse of the patent system by creating patents on generic versions of necessary drugs.",
+    "subtitle-3": "Management Team",
+    "team": {
+      "team-1": "Victor J. Cárdenas",
+      "position-1": "CEO/Chairman of the Board",
+      "team-2": "Juan Sanchez Mejorada",
+      "position-2": "General Director",
+      "team-3": "Dr. Francisco Kuri Breña",
+      "position-3": "CMO/Medical Director",
+      "team-4": "Andres Olave",
+      "position-4": "Director of Operations",
+      "team-5": "Phil Clarke",
+      "position-5": "Director of Strategy",
+      "team-6": "Alan Rivers",
+      "position-6": "Director of Finance",
+      "team-7": "Moises Martinez",
+      "position-7": "Major Retailer USA",
+      "team-8": "Obed Mayoral Fernandez",
+      "position-8": "Director of Agor-Tech Division"
+    }
+  },
+
+  "biopha": {
+    "title": "Biopharmaceutical",
+    "body": "Our Medical Board is formed by a team of world renowned doctors. Each one of them is a leader in their field, aiming to change the world by bringing innovative biopharmaceutical solutions to our everyday lives.",
+    "subtitle-1": "Formulations",
+    "body-1": "Our unique formulations have been carefully created and patented by our R&D and Medical Teams by using the best of science and nature, such as cannabinoids, and adaptogens that help us live a better version of our lives.",
+    "subtitle-2": "Our Vision",
+    "body-2": "Our Founder, CEO and Chairman of the Board of Bloem Life, Victor J. Cardenas, believes that ancestral medicine knows no limits and has the potential to provide real solutions to humanity's needs regarding health and wellness. We provide synergies and growth capital to maximize ROI & optimize opportunities while our portfolio companies maintain control and operating autonomy. We are focused on increasing share holder value through debt instruments & equity rounds to fuel growth and IRR of targeted acquisitions."
+  },
+
+  "sitemap": {
+    "subtitle-1": "Navigate",
+    "subtitle-2": "Explore",
+    "pages": {
+      "page-1": "About Us",
+      "page-2": "Biopharmaceutical",
+      "page-3": "Pure Syncore",
+      "page-4": "Grow Mate"
+    }
+  },
+
+  "puresyn": {
+    "title": "Pure Syncore",
+    "subtitle1": "Our Vision",
+    "p1": "At Pure Syncore, our vision is to create a seamless fusion of ancient wisdom and modern living, enriching your well-being with the goodness of nature and cutting-edge technologies. We integrate ancient technologies that enhance the efficacy of our offerings. Our commitment to incorporating time-tested practices ensures that you receive products that have stood the test of time. This fusion of ancient wisdom and modern advancements empowers you with the best of both worlds. Together, let's redefine well-being by embracing the time-honored wisdom of organic ingredients and the advancements of modern technologies.",
+    "p2": "With Pure Syncore, you become part of a movement that honors tradition while embracing innovation, creating a harmonious balance between ancient wisdom and the demands of modern life. Using proprietary genetics, equipment, processes and patented formulations, Pure Syncore offers a broad range of premium quality natural ingredients such as cannabinoids and adaptogens with customized formulations that range form pharmaceutical products to everyday wellness products such as beverage, food, pets, and cosmetics.",
+    "subtitle2": "Our Brands",
+    "brand1": {
+      "h4": "Regenerate Adaptogens",
+      "p": "Our Regenerate brand is focused on bringing the best of the adaptogens world, to you! Each one of our 4 products has been designed to improve your lifestyle: Mood, inmune, calm and brain."
+    },
+    "brand2": {
+      "h4": "Ashly Pet",
+      "p": "Ashley pet by PureSyncore is a line of pet products that contain CBD-infused treats and more, specially formulated to provide your furry friends with the best care possible. All of our pet care products are made with non-toxic ingredients to ensure your pet is getting the treatment they deserve."
+    },
+    "brand3": {
+      "h4": "Florae",
+      "p": "Our beauty line has been designed to help you improve the way you feel and look with a variety of skincare and hair."
+    },
+    "brand4": {
+      "h4": "Everyday Sports",
+      "p": "Our brand is designed to support athletic performance and recovery."
+    },
+    "brand5": {
+      "h4": "Red Heal",
+      "p": "Our CBD cream is the perfect aid for muscle and joint pain, anytime, anywhere!"
+    },
+    "brand6": {
+      "h4": "Wellness RX",
+      "p": "We understand that autism can be a challenging condition to manage, which is why Pure Syncore is proud to be at the forefront of natural health and wellness research, with a particular focus on the benefits of CBD for autism. Our tincture contains a carefully selected blend of cannabinoids, designed to promote calmness and relaxation, while reducing anxiety and stress."
+    },
+    "wellness": {
+      "subtitle2": "Did you know",
+      "p2": "CBD has been shown to interact with ECS receptors in the brain, including the CB1 receptor, which is involved in the regulation of mood and anxiety. CBD has been found to have calming and anti-anxiety effects, which may be beneficial for individuals with ASD who experience symptoms such as anxiety, aggression, and irritability.",
+      "subtitle3": "How can it help?",
+      "p3": "CBG, a cannabinoid may offer potential benefits such as anti-inflammatory effects, neuroprotection, pain relief, appetite stimulation, antibacterial properties, glaucoma management, and calming effects for anxiety and stress.",
+      "p4": "Researchers have found compelling evidence that CBD is an effective therapy for children on the autism spectrum. In the study, researchers treated 60 children with CBD oil. The children were treated for 7 months with the oil. After the treatment period, parents answered assessment questionnaires to characterize their child’s conditions. Questions were asked about behavioral changes, anxiety levels and ability to communicatae.",
+      "bullet1": "80% of children with autism improved",
+      "bullet2": "50% of the children had improved communication",
+      "bullet3": "40% reported significant decreases in anxiety.",
+      "claim": "'Our vision is that you see us as more than a logo. Our team has dreams, is passionate, and is motivated just like you. Ours just happens to be about bringing back ancestral highly effective remedies, delivering you the purest, best quality wellness products on the market.'"
+    },
+    "growmate": {
+      "title": "About Growmate",
+      "p1": "GrowMateTM International is a privately held company that manufactures exceptional quality humate based products which provide green sustainable solutions to today’s agricultural and remediation industries. Our naturally occurring humus products are used everyday in the agricultural, environmental remediation and waste management industries.",
+      "p2": "We manufacture a diverse line of 'Green Earth' based products used to improve agricultural performance and repair damaged or polluted soils in a sustainable manner. Meet our Growmate products:",
+      "subtitle1": "SOIL:",
+      "p3": "GrowMate TM Soil is recommended for most crops including vegeta-ble crops, field crops, citrus, turf, flowers grown in green-houses, hydroponics and particularly soils with less than 4% organic matter. GrowMateTM Soil is an all natural, highly-effective liquid soil condi-tioner, rich in humic acids designed for soil application. Humic Acids are a fraction of humic substances, they are soluble in water under alkaline pH conditions, and they precipitate in acid and are dark in color.",
+      "p4": "BENEFITS OF GROWMATE TM SOIL",
+      "bullet1": "Enhances absorption of nutrients.",
+      "bullet2": "Improves plant fertilizer use efficiency.",
+      "bullet3": "Improves water infiltration & retention.",
+      "bullet4": "Improves root growth and development.",
+      "subtitle2": "PLANT:",
+      "p5": "GrowMateTM Plant is recommended for most crops including vegetable crops, field crops, citrus, turf, flowers grown in greenhouses, hydroponics, and particularly soils with less than 4% organic matter. Fulvic acids are a fraction of humic substances that are soluble in water under all pH conditions. They remain in liquid form after removal of humic acids by acidification and are yellow to light brown in color. Fulvic acids can be absorbed by a plant through its foliage and then be translocated to all parts of the plant.",
+      "p6": "BENEFITS OF GROWMATE PLANT",
+      "bullet5": "Promotes root development.",
+      "bullet6": "Increases water storage capacity within the plant.",
+      "bullet7": "Stimulates metabolism by increasing molecular activity.",
+      "bullet8": "Increases resistance to stress and distress."
+    }
+  }
 }

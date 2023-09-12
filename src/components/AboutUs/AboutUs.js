@@ -1,3 +1,6 @@
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 import "./AboutUs.css";
 import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -22,7 +25,9 @@ function AboutUs() {
           <h1>{t("about-us.h1")}</h1>
           <p>{t("about-us.body.p1")}</p>
           <p>{t("about-us.body.p2")}</p>
-          <Button>{t("about-us.btn")}</Button>
+          <HashLink className="nav-link" smooth to="/about#work-header">
+            <Button>{t("about-us.btn")}</Button>
+          </HashLink>
         </Col>
       </Row>
     </Container>

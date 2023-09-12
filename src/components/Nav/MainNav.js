@@ -1,5 +1,6 @@
-import { BrowserRouter as Router, Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { BrowserRouter as Router, Link, useNavigate } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 import "./MainNav.css";
 import logo from "../../img/logo.png";
 import { useTranslation } from "react-i18next";
@@ -8,21 +9,8 @@ import { Container, Nav, Navbar, Button } from "react-bootstrap";
 
 function MainNav() {
   const [t, i18n] = useTranslation("global");
-  const [scrolled, setScrolled] = useState(false); // Para detectar scrolleo
+  const navigate = useNavigate();
 
-  // Detectando scrolleo
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 96);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  // Funcion para saltar a la secciones
-  const goToSection = (id) => {
-    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-  };
   return (
     <Navbar expand="lg" className="fixed-top">
       <Container fluid>
@@ -32,23 +20,21 @@ function MainNav() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse className="justify-content-end" id="navbarScroll">
           <Nav className="ml-auto mr-3">
-            <Link className="nav-link" onClick={() => goToSection("about")}>
+            <HashLink className="nav-link" smooth to="/#about">
               {t("nav.about-us")}
-            </Link>
-            <Link
-              className="nav-link"
-              onClick={() => goToSection("experience")}>
+            </HashLink>
+            <HashLink className="nav-link" smooth to="/#experience">
               {t("nav.experience")}
-            </Link>
-            <Link className="nav-link" onClick={() => goToSection("location")}>
+            </HashLink>
+            <HashLink className="nav-link" smooth to="/#location">
               {t("nav.location")}
-            </Link>
-            <Link className="nav-link" onClick={() => goToSection("solutions")}>
+            </HashLink>
+            <HashLink className="nav-link" smooth to="/#solutions">
               {t("nav.solutions")}
-            </Link>
-            <Link className="nav-link" onClick={() => goToSection("contact")}>
+            </HashLink>
+            <HashLink className="nav-link" smooth to="/#contact">
               {t("nav.contact")}
-            </Link>
+            </HashLink>
           </Nav>
         </Navbar.Collapse>
         <div>

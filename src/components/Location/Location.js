@@ -44,45 +44,40 @@ function Location() {
             onClick={() => setZoneActive(1)}
             className={zoneActive === 1 ? active : "item d-flex"}>
             <img className="img-fluid mr-4" src={Icon3}></img>
-            <div>
+            <div className="pt-3 pl-5">
               <h4>{t("location.item-1.title")}</h4>
-              <p>{t("location.item-1.body")}</p>
             </div>
           </Col>
           <Col
             onClick={() => setZoneActive(2)}
             className={zoneActive === 2 ? active : "item d-flex"}>
             <img className="img-fluid mr-4" src={Icon2}></img>
-            <div>
+            <div className="pt-3 pl-5">
               <h4>{t("location.item-2.title")}</h4>
-              <p>{t("location.item-2.body")}</p>
             </div>
           </Col>
           <Col
             onClick={() => setZoneActive(3)}
             className={zoneActive === 3 ? active : "item d-flex"}>
             <img className="img-fluid mr-4" src={Icon1}></img>
-            <div>
+            <div className="pt-3 pl-5">
               <h4>{t("location.item-3.title")}</h4>
-              <p>{t("location.item-3.body")}</p>
             </div>
           </Col>
           <Col
             onClick={() => setZoneActive(4)}
             className={zoneActive === 4 ? active : "item d-flex"}>
             <img className="img-fluid mr-4" src={Icon4}></img>
-            <div>
+            <div className="pt-3 pl-5">
               <h4>{t("location.item-4.title")}</h4>
-              <p>{t("location.item-4.body")}</p>
             </div>
           </Col>
           <Col
             onClick={() => setZoneActive(5)}
             className={zoneActive === 5 ? active : "item d-flex"}>
             <img className="img-fluid mr-4" src={Icon5}></img>
-            <div>
+            <div className="pt-3 pl-5">
               <h4>{t("location.item-5.title")}</h4>
-              <p>{t("location.item-5.body")}</p>
             </div>
           </Col>
         </Col>

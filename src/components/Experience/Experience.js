@@ -1,3 +1,6 @@
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 import "./Experience.css";
 import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -55,7 +58,12 @@ function Experience() {
           </Col>
         </Row>
         <Col className="text-center">
-          <Button>{t("experience.btn")}</Button>
+          <HashLink
+            className="nav-link"
+            smooth
+            to="/biopharmaceutical#biopha-header">
+            <Button>{t("experience.btn")}</Button>
+          </HashLink>
         </Col>
       </Container>
     </Container>

@@ -6,8 +6,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import BioPha from "./pages/BioPha";
 import ErrorPage from "./pages/ErrorPage";
-import PureSyn from "./components/PureSyn/PureSyn";
-import GrowMate from "./components/GrowMate/GrowMate";
+import PureSynCo from "./pages/PureSyn";
+import GrowMateCo from "./pages/Growmate";
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/biopharmaceutical" element={<BioPha />}></Route>
-          <Route path="/pure-syncore" element={<PureSyn />}></Route>
-          <Route path="/growmate" element={<GrowMate />}></Route>
+          <Route path="/pure-syncore" element={<PureSynCo />}></Route>
+          <Route path="/growmate" element={<GrowMateCo />}></Route>
           <Route path="*" element={<ErrorPage />}></Route>
           <Route exact path="/#location"></Route>
         </Routes>

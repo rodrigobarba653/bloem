@@ -1,10 +1,10 @@
 {
   "nav": {
-    "about-us": "About Us",
-    "experience": "Biopharmaceutical",
-    "location": "Location",
-    "solutions": "Solutions",
-    "contact": "Contact"
+    "about-us": "Nosotros",
+    "experience": "Biofarmaceutica",
+    "location": "Locación",
+    "solutions": "Soluciones",
+    "contact": "Contacto"
   },
 
   "header": {

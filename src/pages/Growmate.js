@@ -1,11 +1,11 @@
-import GrowMate from "../components/PureSyn/PureSyn";
+import GrowMateCo from "../components/GrowMate/GrowMate";
 import Contact from "../components/Contact/Contact";
 import SiteMap from "../components/SiteMap/SiteMap";
 
 function GrowMate() {
   return (
     <div id="GrowMateCo">
-      <PureSynCo />
+      <GrowMateCo />
       <Contact />
       <SiteMap />
     </div>
