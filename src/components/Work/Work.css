@@ -16,6 +16,8 @@
   padding: 0px;
   position: relative;
   margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 #work-card .card-body {

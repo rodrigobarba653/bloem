@@ -59,6 +59,7 @@ function Work() {
       </Container>
 
       <Container id="work-card">
+        <h1 className="mb-5">{t("work.subtitle-2")}</h1>
         <Row>
           <Col lg="4">
             <Card xs="12">

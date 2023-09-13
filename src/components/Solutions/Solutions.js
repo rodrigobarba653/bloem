@@ -28,17 +28,24 @@ function Solutions({ solutionsRef }) {
         <Col className="solutions-brand" lg="6">
           <img className="img-fluid mb-3 mt-5" src={PureLogo}></img>
           <p>{t("solutions.brand-1.body")}</p>
+          <a href="https://puresyncore.shop/">{t("solutions.go-site")}</a>
           <HashLink
-            className="nav-link"
+            className="nav-link mt-4"
             smooth
-            to="/pure-syncore#puresyn-header">
+            to="/pure-syncore#puresyn-header"
+          >
             <Button>{t("solutions.btn")}</Button>
           </HashLink>
         </Col>
         <Col className="solutions-brand" lg="6">
           <img className="img-fluid mb-3 mt-5" src={GrowLogo}></img>
           <p>{t("solutions.brand-2.body")}</p>
-          <HashLink className="nav-link" smooth to="/growmate#puresyn-header">
+          <a href="https://www.growmateintl.com/">{t("solutions.go-site")}</a>
+          <HashLink
+            className="nav-link mt-4"
+            smooth
+            to="/growmate#puresyn-header"
+          >
             <Button>{t("solutions.btn")}</Button>
           </HashLink>
         </Col>

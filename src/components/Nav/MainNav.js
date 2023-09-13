@@ -14,9 +14,9 @@ function MainNav() {
   return (
     <Navbar expand="lg" className="fixed-top">
       <Container fluid>
-        <Link className="navar-brand" to="/">
+        <HashLink className="navar-brand" smooth to="/#header">
           <img src={logo} />
-        </Link>
+        </HashLink>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse className="justify-content-end" id="navbarScroll">
           <Nav className="ml-auto mr-3">
@@ -42,13 +42,15 @@ function MainNav() {
             className="mr-2"
             variant="outline-secondary"
             onClick={() => i18n.changeLanguage("es")}
-            href="#">
+            href="#"
+          >
             ES
           </Button>
           <Button
             variant="outline-secondary"
             onClick={() => i18n.changeLanguage("en")}
-            href="#">
+            href="#"
+          >
             EN
           </Button>
         </div>

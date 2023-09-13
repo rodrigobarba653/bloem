@@ -25,6 +25,7 @@ function AboutUs() {
           <h1>{t("about-us.h1")}</h1>
           <p>{t("about-us.body.p1")}</p>
           <p>{t("about-us.body.p2")}</p>
+          <p className="italic">{t("work.claim")}</p>
           <HashLink className="nav-link" smooth to="/about#work-header">
             <Button>{t("about-us.btn")}</Button>
           </HashLink>
